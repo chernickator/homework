@@ -1,0 +1,44 @@
+header {
+	background: lightgrey;
+	border: 5px solid grey; 
+	width: 99%;
+	height: 150px;
+}
+.left {
+	float: left;
+	background: lightgrey;
+	border: 5px solid grey; 
+	width: 47%;
+	height: 450px;
+	margin-top: 25px;
+	margin-right: 15px;
+}
+.right {
+	float: right;
+	background: lightgrey;
+	border: 5px solid grey; 
+	width: 47%;
+	height: 450px;
+	margin-top: 25px;
+}
+.small {
+	float: left;
+	background: lightgrey;
+	border: 5px solid grey; 
+	width: 31%;
+	height: 250px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	box-sizing: border-box;
+}
+.small:nth-child(2), .small:first-child {
+	margin-right: 25px;
+}
+
+footer {
+	background: lightgrey;
+	border: 5px solid grey; 
+	width: 99%;
+	height: 150px;
+	clear: both;
+}

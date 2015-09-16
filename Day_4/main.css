@@ -1,0 +1,10 @@
+header, main, div, footer {
+	border: 1px solid blue;
+}
+.awesome {
+	float: left;
+	width: 49%;
+}
+footer {
+	clear: both;
+}
