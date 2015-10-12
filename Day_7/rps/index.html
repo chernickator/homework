@@ -41,7 +41,27 @@ function getComputerChoice(){
 // The getWinner function accepts two arguments.
 
 function getWinner(computerSelection, userSelection){
-	// Enter code here so that the getWinner function returns "User", "Computer", or "Tie"
+	if (computerSelection === "rock" && userSelection == "scissors") {
+	return "Computer Wins";
+} 
+	else if (computerSelection === "paper" && userSelection == "rock") {
+	return "Computer Wins";
+}
+ 	else if (computerSelection === "scissors" && userSelection == "paper") {
+	return "Computer Wins";
+}
+ 	else if (computerSelection === "scissors" && userSelection == "rock") {
+	return "User Wins";
+} 
+	else if (computerSelection === "paper" && userSelection == "scissors") {
+ 	return "User Wins";
+} 	
+	else if (computerSelection === "rock" && userSelection == "paper") {
+	return "User Wins"
+}
+	else {
+	return "Tie";
+}
 }
 
 function playGame(){
