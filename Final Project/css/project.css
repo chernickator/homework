@@ -1,0 +1,152 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #F5F5F5;
+}
+.news{
+  background: #444;
+  color: #F5F5F5;
+  padding: 25px;
+}
+
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+h3{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+.logo{
+  max-width:90%;
+  height:auto;
+  position: relative;
+  display:block;
+  margin:0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.logo img {
+  max-width:100% !important;
+  height:auto;
+  display:block;
+}
+ul, li {
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  width: 15%;
+  border-bottom: none;
+  height: 50px;
+  line-height: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4em;
+  display: inline-block;
+  margin-right: -4px;
+}
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s;
+}
+ 
+.nav a:hover {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #000913;
+}
+ 
+.nav a:active {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #000913;
+  cursor: default;
+}
+.mobile-menu {
+  display:none;
+  float:right;
+  padding: 15px 30px;
+  margin: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+
+.row {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.author{
+  max-width:100%;
+  height:auto;
+  display:block;
+  margin:0 auto;
+  padding:20px;
+}
+.author img {
+  max-width:100% !important;
+  height:auto;
+  display:block;
+}
+
+
+@media screen and (max-width: 500px) {
+  .nav li {
+    display: block;
+    width: 100% !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    border-bottom: 1px solid #888;
+  }
+
+  #carousel-example-generic {
+    display: none;
+  }
+
+  .section2 li{
+    float:none;
+    width:100%;
+  }
+  .section3 li{
+    float:none;
+    width: 100%;
+  }
+  .author{
+    float:none;
+    max-width: 100%;
+    padding-left: 0px;
+  }
+  .bio{
+    float:none;
+    max-width: 100%;
+  }
+
+
+  
+}
