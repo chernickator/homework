@@ -8,7 +8,7 @@ body {
   padding: 0;
   background: #F5F5F5;
 }
-.news{
+.tagline{
   background: #444;
   color: #F5F5F5;
   padding: 25px;
@@ -124,11 +124,6 @@ ul, li {
     font-size: 1.2em;
     border-bottom: 1px solid #888;
   }
-
-  #carousel-example-generic {
-    display: none;
-  }
-
   .section2 li{
     float:none;
     width:100%;
