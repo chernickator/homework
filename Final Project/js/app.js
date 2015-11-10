@@ -17,21 +17,15 @@ $(function(){
 
 $("form").on("submit",function(e){
 	e.preventDefault();
-	var firstName = $("input[name='firstName']").val();
-	var lastName = $("input[name='lastName']").val();
-	var email = $("input[name='email']").val();
-	var textArea1 = $("textarea[name='textArea1']").val();
+	var name = $("input[name='Full_Name']").val();
+	var email = $("input[name='Email_Address']").val();
+	var textArea1 = $("textarea[name='Your_Message']").val();
 
 
 	var data = {
-		userFirstName: firstName,
-		userLastName: lastName,
-		userPhone: [phone1, phone2, phone3],
-		userAddress: [street, street2, city, state, zip],
-		userCourse: course,
+		userName: name,
 		UserTextArea1: textArea1,
-		userRefferal: refferal,
-		UserTextArea2: textArea2,
+		userEmail: email,
 	};
 
 	console.log(data);
